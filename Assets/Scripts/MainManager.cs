@@ -12,7 +12,6 @@ public class MainManager : MonoBehaviour
 
     public Text ScoreText;
     public GameObject GameOverText;
-    //public Text PlayerNameTxt;
     
     private bool m_Started = false;
     private int m_Points;
@@ -37,7 +36,6 @@ public class MainManager : MonoBehaviour
                 brick.onDestroyed.AddListener(AddPoint);
             }
         }
-        //PlayerNameTxt.text = "Best Score: " + MenuUIHandler.playerName; 
     }
 
     private void Update()
