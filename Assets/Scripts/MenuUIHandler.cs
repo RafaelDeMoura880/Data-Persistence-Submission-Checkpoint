@@ -10,12 +10,10 @@ using UnityEditor;
 [DefaultExecutionOrder(1000)]
 public class MenuUIHandler : MonoBehaviour
 {
-    //public static string playerName;
 
     private void Start()
     {
-        //playerName = this.gameObject.transform.GetChild(0).transform.GetChild(1).gameObject.
-            //GetComponent<Text>().text;
+        
     }
 
     public void Play()
